@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #222;
+}
+
+header {
+    background: #154c8f;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+header p {
+    margin: 0;
+}
+
+nav {
+    background: white;
+    text-align: center;
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #243447;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1677c8;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+section {
+    background: white;
+    padding: 24px;
+    margin-bottom: 22px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    margin-top: 0;
+    color: #243447;
+}
+
+.club-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.club {
+    padding: 18px;
+    border: 1px solid #d9dfe5;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.club h3 {
+    margin-top: 0;
+    color: #1677c8;
+}
+
+.event {
+    padding: 12px;
+    margin: 8px 0;
+    background: #f5f7f9;
+    border-left: 4px solid #1677c8;
+}
+
+form {
+    max-width: 450px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin-top: 18px;
+    padding: 10px 22px;
+    background: #1677c8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #125f9e;
+}
+
+footer {
+    text-align: center;
+    background: #243447;
+    color: white;
+    padding: 16px;
+}
+
+@media (max-width: 650px) {
+    .club-container {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+}
+
+
+.achievement {
+    padding: 12px;
+    margin: 8px 0;
+    background: #f5f7f9;
+    border-left: 4px solid #1677c8;
+}
+
+.achievement h3 {
+    margin: 0 0 5px;
+}
